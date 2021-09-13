@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0; margin: 0; outline: none;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+:root{
+    --cor: #8c52ff;
+}
+.paragraph{
+    width: 375px;
+}
+header{height: 75px;}
+.logo{
+    text-align: center;
+    height: 66px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.logo img {height: 245px;position: relative;top: -89px;}
+.apresentacao{
+    width: 100%;
+    height: 443px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 999;
+    justify-content: center;
+    background: #8c52ff;
+    padding-top: 51px;
+}
+.descricao{
+    color: #fff;
+    margin: 0 100px;
+}
+.descricao p {margin-top: 30px;font-weight: 600;line-height: 1.6;text-align: left;}
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 4.5em;
+    line-height: 0.9;
+}
+.btn-saiba{
+     padding: 20px 46px;
+     background: #48ca8e;
+     color: #fff;
+     font-weight: 400;
+     border-radius: 50px;
+     margin-top: 19px;
+     position: relative;
+     top: 30px;
+}
+.sectiontwo{
+    background: url('./banner_gabs.jpg');
+    display: block;
+    height: 600px;
+}
+.descricaotwo{
+    float: right;
+    margin: 70px;
+    width: 41%;
+    margin-top: 177px;
+    text-align: justify;
+}
+.descricaotwo p {
+    line-height: 1.5;
+    color: #fff;
+    margin: 15px 0;
+}
+.descricaotwo h2{
+    color: #fff;
+    font-size: 2.5em;
+}
+.section-num{
+    text-align: center;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+}
+#num ul {
+    display: flex;
+}
+#num ul li img{
+    width: 80%;
+}
+footer{
+    display: flex;
+    background: radial-gradient(#131313, #151515);
+    flex-wrap: wrap;
+}
+
+.form{
+ 
+    box-sizing: border-box;
+    padding: 10px;
+    float: right;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+  
+}
+
+#copywrite p {
+    color: #fff;
+}
+.footerLogo img {
+    width: 154px;
+    position: relative;
+    left: -14px;
+    margin-bottom: 6px;
+}
+#copywrite {
+    border-bottom: 1px solid #ffffff4d;
+    width: 85%;
+    margin: 57px auto 20px;
+    text-align: center;
+}
+#redes{
+    float: right;
+    color: #fff;
+    display: flex;
+    position: relative;
+    top: -25px;
+}
+#redes li a img {
+    width: 24px;
+    margin-right: 8px;
+}
+.footerMore{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 55px;
+}
+.form input{
+    height: 25px;
+    border-radius: 3px;
+    border: none;
+    margin: 2px 0;
+    padding: 2px;
+    color: rgb(85, 85, 85);
+}
+.conteudo-footer{
+    display: flex;
+    color : #fff;
+    flex-direction: column;
+}
+.conteudo-footer a{
+    color : #fff;
+    padding: 5px;
+    font-size: 13px;
+}
+.footerLogo{
+    color: #fff;
+    width: 20%;
+}
+.footerLogo p {
+    text-align: justify;
+    font-size: 13px;
+}
+textarea{
+    height: 55px;;
+}
+.because{
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+
+}
+.because h2{
+    display: block;
+
+}
+.because p {
+    font-weight: 500;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 2.1;
+}
