@@ -13,9 +13,17 @@
 .tipos{
     background: linear-gradient(to bottom, #a0dbed, #93d4e8);
     display: flex;
+    flex-wrap: wrap;
 }
-.tipos h2 {font-weight: bold;font-size: 4em;margin-top: 80px;color: #00398e;
+.tipos h2 {
  
+font-weight: bold;
+ 
+font-size: 5vw;
+ 
+margin-top: 80px;
+ 
+color: #00398e;
 }
 .tipos p {
     color: #00398e;
@@ -99,7 +107,7 @@ h1{
     flex-wrap: wrap;
 }
 #num ul li{
-    margin: 0 40px;
+    margin: 0 27px;
     /* box-shadow: 0 0 5px; */
     width: 270px;
     padding: 41px 9px;
@@ -234,7 +242,7 @@ textarea{
     padding: 40px 0;
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 1000px){
     .becauses h2{
         margin-bottom: 50px;
     }
@@ -275,4 +283,34 @@ textarea{
     section-num li{
         width: 200px;
     }
+    .oganize{
+    width: 100% !important;
+    background: #141414;
+    padding: 0 20px;
+    }
+    .banner{
+        display: none;
+    }
+    .sectiontwo{
+        height: auto;
+        display: none;
+    }
+    .descricao p{
+        text-align: justify;
+    }
+    .tipos h2{  
+        color: #fff;
+        text-align: center;  
+     }
+    .tipos p{
+        width: 100%;
+        text-align: justify;
+        color: #c7c7c7;
+        text-indent: 30px;
+    }
+    .tipos img{
+        width: 100%;
+    }
 }
+
+.oganize{width: 50%;}
